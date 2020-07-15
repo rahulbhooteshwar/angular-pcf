@@ -1,0 +1,6 @@
+---
+applications:
+  - name: angular-pcf-poc
+    buildpack: staticfile_buildpack
+    path: dist/angular-pcf-poc
+    location_include: includes/*.conf
